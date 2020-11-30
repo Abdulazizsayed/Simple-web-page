@@ -1,0 +1,146 @@
+/*Main rules*/
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 65%;
+	margin: auto;
+}
+
+.clearfix {
+	clear: both;
+}
+/*End main rules*/
+
+/*Quote section*/
+.quote {
+	background-color: #F8F7FD;
+	margin: 50px 0;
+}
+
+.quote .quote, .quote .images {
+	float: left;
+}
+
+.quote .quote {
+	width: 50%;
+}
+
+.quote .images {
+	width: 40%;
+	padding: 0 5%;
+	height: 400px;
+}
+
+.quote .images .images-container {
+	background-image: url('https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/128406300_2881870468715548_2126516179594660012_n.jpg?_nc_cat=109&ccb=2&_nc_sid=b9115d&_nc_ohc=zv7LVjZ3ktoAX-CvZEv&_nc_ht=scontent.fcai19-2.fna&oh=beb3cec8e17ec4927009840dd257faa1&oe=5FEC26B7');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 100%;
+}
+
+.quote .images .content {
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.quote .images .content .img {
+	width: 33.3333333%;
+	float: left;
+	text-align: center;
+}
+
+.quote .images .content .img img {
+	width: 100px;
+	height: 150px;
+	border: 3px solid #FFF;
+}
+
+.quote .quote .title {
+	color: red;
+	font-size: 25px;
+}
+
+.quote .quote .desc {
+	color: #AAA;
+	font-size: 18px;
+	font-style: italic;
+}
+/*End Quote section*/
+
+/*Start features section*/
+.features {
+	margin-bottom: 40px;
+}
+
+.features .title {
+	text-align: center;
+	color: #333;
+	font-size: 40px;
+	margin: 70px 0;
+}
+
+.features .feature {
+	width: 26.1111111%;
+	margin: 0 1%;
+	padding: 2%;
+	float: left;
+	background-color: #F8F7FD;
+}
+
+.features .feature h5 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.features .feature > img {
+	text-align: center;
+	width: 100%;
+	height: 200px;
+	border-radius: 3px;
+}
+
+.features .feature .poster {
+	margin-top: 15px;
+}
+
+.features .feature .poster .float {
+	float: left;
+}
+
+.features .feature .poster .name-img{
+	width: 60%;
+	position: relative;
+}
+
+.features .feature .poster .name-img img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.features .feature .poster .name-img h6 {
+	color: #AAA;
+	font-size: 12px;
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	margin: 0;
+}
+
+.features .feature .poster .likes,
+.features .feature .poster .comments{
+	width: 20%;
+	font-size: 12px;
+	color: #AAA;
+	padding: 10px 0;
+}
+
+/*End features section*/
